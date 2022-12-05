@@ -19,7 +19,7 @@ class Instagram:
         self.device_id = None
         self.rollout_hash = None
         self.proxies = (
-            {"http": f"http://{proxy}", "https": f"http://{proxy}"}
+            {"http": f"http://{proxy}", "https": f"https://{proxy}"}
             if proxy != None
             else None
         )
